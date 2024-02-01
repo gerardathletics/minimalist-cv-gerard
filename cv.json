@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Gerard Mateu Porras Cantons",
-    "label": "GIS Specialist & Developer | Geo-ICT, Web-GIS, Geo-data & Cartography | MSc Geo-information Science",
+    "label": "GIS Specialist & Developer | Geo-ICT, Web-GIS, Geo-data & Cartography",
     "image": "/me.webp",
     "email": "gerardporras@gmail.com",
     "phone": "+31 620559965",
@@ -174,11 +174,28 @@
   ],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Lat Lon Finder",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
+      "description": "Find cities along a latitude and longitude line",
+      "highlights": ["NextJS"],
+      "github": "",
+      "url": ""
+    },
+    {
+      "name": "Lat Lon Finder",
+      "isActive": true,
+      "description": "Find cities along a latitude and longitude line",
+      "highlights": ["NextJS"],
+      "github": "",
+      "url": ""
+    },
+    {
+      "name": "Lat Lon Finder",
+      "isActive": true,
+      "description": "Find cities along a latitude and longitude line",
+      "highlights": ["NextJS"],
+      "github": "",
+      "url": ""
     }
   ]
 }
