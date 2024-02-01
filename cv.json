@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Gerard Mateu Porras Cantons",
-    "label": "GIS Developer & Specialist",
+    "label": "GIS Specialist & Developer | Geo-ICT, Web-GIS, Geo-data & Cartography | MSc Geo-information Science",
     "image": "/me.webp",
     "email": "gerardporras@gmail.com",
-    "phone": "+34 6...",
+    "phone": "+31 620559965",
     "url": "",
     "summary": "GIS Developer with a strong foundation in GEO-IT, skilled in making sense of spatial data analysis and bringing it to life through web applications. A collaborative professional dedicated to continuous learning, clear communication, and leveraging the latest technology to tackle complex challenges.",
     "location": {
@@ -34,12 +34,39 @@
   },
   "work": [
     {
-      "name": "TPG",
+      "name": "The People Group",
       "position": "GIS Developer",
       "url": "",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Developed....",
+      "startDate": "2023-01-01",
+      "endDate": "2024-02-01",
+      "summary": "Web-GIS development (TypeScript, React…). GIS Web design and interaction (Figma, InkScape). Database and spatial server management and administration (PostGIS, GeoServer, Docker). Scripts for process automation and ETL (Python, FME).",
+      "highlights": ["Developed...."]
+    },
+    {
+      "name": "GIS Specialisten - The People Group",
+      "position": "GIS Specialist",
+      "url": "",
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01",
+      "summary": "Spatial data analysis projects (ArcGIS Pro, QGIS, Python, FME). Cartography and process automation in QGIS and AutoCad Civil 3D. Spatial database and GeoServer administration.",
+      "highlights": ["Developed...."]
+    },
+    {
+      "name": "GIS Specialisten - The People Group ",
+      "position": "WEB GIS Developer Intern",
+      "url": "",
+      "startDate": "2021-06-01",
+      "endDate": "2021-12-31",
+      "summary": "Web GIS Development (HTML, CSS, JS, React, Leaflet…). GIS and cartography projects.",
+      "highlights": ["Developed...."]
+    },
+    {
+      "name": "Cartography & GIS Service - Universitat de Lleida",
+      "position": "Junior GIS Researcher",
+      "url": "",
+      "startDate": "2017-09-01",
+      "endDate": "2018-12-31",
+      "summary": "Work and assistance in different geographic and spatial related research projects.Digitalization. Map management, use of GIS tools, graphic design and image processing. ",
       "highlights": ["Developed...."]
     }
   ],
