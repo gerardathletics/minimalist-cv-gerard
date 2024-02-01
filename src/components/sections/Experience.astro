@@ -10,9 +10,9 @@ import { work } from "@cv"
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
             const startYear = new Date(startDate).getFullYear()
-            const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'long' })
+            const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' })
             const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
-            const endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'long' }) : "Present" 
+            const endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'short' }) : "Present" 
             const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
 
   return (
@@ -85,6 +85,15 @@ import { work } from "@cv"
   @media (width <= 700px) {
     time {
       text-align: right;
+      font-size: small;
+      max-width: 40vw;
+      padding-top: .3rem;
     }
+
+    article h3 {
+    font-weight: 500;
+    font-size: large;
+    color: #111;
+  }
   }
 </style>

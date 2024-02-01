@@ -43,7 +43,7 @@
       "highlights": ["Developed...."]
     },
     {
-      "name": "GIS Specialisten - The People Group",
+      "name": "GIS Specialisten - TPG",
       "position": "GIS Specialist",
       "url": "",
       "startDate": "2022-01-01",
@@ -52,8 +52,8 @@
       "highlights": ["Developed...."]
     },
     {
-      "name": "GIS Specialisten - The People Group ",
-      "position": "WEB GIS Developer Intern",
+      "name": "GIS Specialisten - TPG",
+      "position": "Web-GIS Developer Intern",
       "url": "",
       "startDate": "2021-06-01",
       "endDate": "2021-12-31",
@@ -83,14 +83,42 @@
   ],
   "education": [
     {
+      "institution": "TYC GIS Academy",
+      "url": "",
+      "area": "Web GIS Specialization",
+      "studyType": "course",
+      "startDate": "2023-01-01",
+      "endDate": "2023-05-01",
+      "score": "",
+      "courses": []
+    },
+    {
       "institution": "Wageningen University & Research",
       "url": "",
-      "area": "GIS & Remote Sensing",
+      "area": "M.Sc. Geoinformation Science",
       "studyType": "Master of Science",
       "startDate": "2019-09-01",
       "endDate": "2021-01-01",
       "score": "",
-      "courses": ["DB1101 - Basic SQL"]
+      "courses": [
+        "Python",
+        "Geo-Scripting",
+        "Geostatistics",
+        "Spatial Modelling",
+        "Remote Sensing",
+        "Data Science for Smart environments",
+        "Big Data"
+      ]
+    },
+    {
+      "institution": "Universitat de Lleida",
+      "url": "",
+      "area": "B.Sc. Geography & Spatial Planning",
+      "studyType": "Bachelor of Science",
+      "startDate": "2014-09-01",
+      "endDate": "2019-01-01",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
@@ -103,10 +131,16 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "FME Professonal Certificate",
+      "date": "2022-09-01",
+      "issuer": "Safe Software",
+      "url": ""
+    },
+    {
+      "name": "EASA Certified Drone Pilot",
+      "date": "2022-01-01",
+      "issuer": "EASA - European Union Aviation Safety Agency",
+      "url": ""
     }
   ],
   "publications": [
