@@ -1,0 +1,157 @@
+{
+  "basics": {
+    "name": "Gerard Mateu Porras Cantons",
+    "label": "GIS Developer & Specialist",
+    "image": "/me.webp",
+    "email": "gerardporras@gmail.com",
+    "phone": "+34 6...",
+    "url": "",
+    "summary": "GIS Developer with a strong foundation in GEO-IT, skilled in making sense of spatial data analysis and bringing it to life through web applications. A collaborative professional dedicated to continuous learning, clear communication, and leveraging the latest technology to tackle complex challenges.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Utrecht",
+      "countryCode": "NL",
+      "region": "Netherlands"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "gerardathletics",
+        "url": "https://linkedin.com/in/gerardathletics"
+      },
+      {
+        "network": "X",
+        "username": "gerardathletics",
+        "url": "https://x.com/gerardathletics"
+      },
+      {
+        "network": "GitHub",
+        "username": "gerardathletics",
+        "url": "https://github.com/gerardathletics"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "TPG",
+      "position": "GIS Developer",
+      "url": "",
+      "startDate": "2021-01-01",
+      "endDate": null,
+      "summary": "Developed....",
+      "highlights": ["Developed...."]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Wageningen University & Research",
+      "url": "",
+      "area": "GIS & Remote Sensing",
+      "studyType": "Master of Science",
+      "startDate": "2019-09-01",
+      "endDate": "2021-01-01",
+      "score": "",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "QGIS",
+      "level": "Advanced",
+      "keywords": ["GIS", "Spatial Analysis"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Catalan",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Portuguese",
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Dutch",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "German",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Dancing",
+      "keywords": ["Salsa", "Bachata"]
+    },
+    {
+      "name": "Athletics",
+      "keywords": ["Hurdles", "Sprinting"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "mars.codes",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": ["Elige tu propia aventura", "En desarrollo"],
+      "url": "https://mars.codes"
+    }
+  ]
+}
