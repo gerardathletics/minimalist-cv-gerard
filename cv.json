@@ -53,7 +53,13 @@
             "startDate": "2023-01-01",
             "endDate": "2024-02-01",
             "summary": " I played a key role in a project focused on enhancing WebGIS applications. My main contributions were to the development and maintenance of a modular frontend GIS viewer and the creation of a configuration page for easy client customization. This effort was part of a four-person team dedicated to innovating GIS tools, requiring expertise in web development, GIS, Agile methodologies, and technologies like GeoServer and PostGIS.",
-            "highlights": ["Developed...."],
+            "highlights": [
+                "Used TypeScript, React, Leaflet, and Redux to develop a robust WebGIS application, focusing on performance and user experience.",
+                "Applied Figma and Inkscape to design intuitive and interactive GIS web interfaces, emphasizing usability and aesthetic appeal.",
+                "Employed Scrum and Azure DevOps for project management, ensuring efficient workflow and team collaboration throughout the development cycle.",
+                "Administered PostGIS, GeoServer, and Docker to manage spatial data effectively, ensuring data integrity and accessibility.",
+                "Engaged in the design of new basemaps using the Maputnik editor."
+            ],
             "skills": ["Agile", "GeoServer", "PostGIS", "JavaScript", "React", "Docker", "Git", "React", "Angular", "Figma", "Leaflet", "CSS"]
         },
         {
@@ -63,7 +69,13 @@
             "startDate": "2022-01-01",
             "endDate": "2023-01-01",
             "summary": " I participated in a wide range of geo-information and geo-ICT projects. The position required a versatile skill set, including data analysis, mapping, process automation, spatial database management, and supporting the development team with various programming tasks",
-            "highlights": ["Developed....", "Supported...."],
+            "highlights": [
+                "Conducted training sessions and provided comprehensive documentation for team members on managing geospatial data using QGIS.",
+                "Created data workflows integrating PostGIS databases with GeoServer for visualization and management.",
+                "Engaged in the development of automated browser-based tests using Selenium and Python to streamline testing processes.",
+                "Engaged in various data and spatial analysis projects. Data manipulation, transformation, and analysis using Python, PostGIS, geopandas, and QGIS were part of the process.",
+                "Offered technical support to the development team, especially in Python and React"
+            ],
             "skills": ["Qgis", "Python", "PostGIS", "FME", "ArcGIS Pro", "JavaScript", "AGOL", "GeoPandas", "OGC Standards"]
         },
         {
@@ -73,7 +85,11 @@
             "startDate": "2021-06-01",
             "endDate": "2021-12-31",
             "summary": "During my internship as a Web-GIS Developer, I was part of a small development team of 4. My main project focused on spatio-temporal data visualization in a Web-GIS application. The organization identified a need for a tool to represent the temporal dimension of geo-data, given its relevance in multi-temporal spatial datasets.",
-            "highlights": ["Developed...."],
+            "highlights": [
+                "Reviewed literature on Web-GIS and spatio-temporal data visualization and became acquainted with essential tools.",
+                "Engaged in front-end and back-end development, utilizing React and Redux for UI and state management, Leaflet for mapping, and GeoServer for backend data services.",
+                "Designed the application with functional, reusable components to incorporate a timeline tool, enhancing scalability and maintainability through modular frontend development."
+            ],
             "skills": ["Qgis", "Python", "PostGIS", "JavaScript", "Remote Sensing", "GEE", "TypeScript", "React"]
         },
         {

@@ -169,6 +169,7 @@ button[data-target] {
     border-radius: 5px; 
     border: 1px solid #ddd; 
     margin-bottom: 10px; 
+    max-width: 100%;
   }
 
   div[id^="highlights-"] ul {
@@ -179,11 +180,13 @@ button[data-target] {
   }
 
   div[id^="highlights-"] li {
-    margin-bottom: 5px;
+    margin-bottom: 0px !important;
     color: #333; 
-    font-size: 16px; 
+    font-size: 16px;
+    padding: none !important; 
     box-shadow: none !important; 
     background-color: #f9f9f9 !important;
+    white-space: normal !important;
   }
 
   div[id^="highlights-"] li:last-child {
