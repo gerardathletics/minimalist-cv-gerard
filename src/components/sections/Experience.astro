@@ -36,7 +36,7 @@ import { work } from "@cv"
             <ul>
                 {
                 skills?.map((skill, index) => (
-                    <li key={index}>{skill}</li>
+                    <li >{skill}</li> <!-- Astro manages keys under the hood, so no need to add key -->
                 ))
                 }
             </ul>
