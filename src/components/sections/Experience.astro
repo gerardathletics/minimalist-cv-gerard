@@ -8,7 +8,7 @@ import { work } from "@cv"
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+        ({ name, startDate, endDate, position, summary, highlights, skills, url }) => {
             const startYear = new Date(startDate).getFullYear()
             const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' })
             const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
@@ -33,6 +33,13 @@ import { work } from "@cv"
 
         <footer>
           <p>{summary}</p>
+            <ul>
+                {
+                skills?.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                ))
+                }
+            </ul>
         </footer>
       </article>
     </li>
@@ -81,6 +88,25 @@ import { work } from "@cv"
     min-width: 102px;
     padding-top: .6rem;
   }
+
+  footer ul {
+    list-style: none; 
+    flex-direction: row;
+    padding: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+footer ul li {
+    background-color: #f2f2f2; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-size: 0.7rem; 
+    font-weight: 500; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    white-space: nowrap; 
+}
 
   @media (width <= 700px) {
     time {
