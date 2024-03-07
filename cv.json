@@ -18,7 +18,7 @@
             {
                 "network": "LinkedIn",
                 "username": "gerardathletics",
-                "url": "https://linkedin.com/in/gerardathletics"
+                "url": "https://www.linkedin.com/in/gerardathetics/"
             },
             {
                 "network": "X",
@@ -29,6 +29,11 @@
                 "network": "GitHub",
                 "username": "gerardathletics",
                 "url": "https://github.com/gerardathletics"
+            },
+            {
+                "network": "Flickr",
+                "username": "gerardporras",
+                "url": "https://www.flickr.com/photos/188226047@N04/albums/72157714104865581/"
             }
         ]
     },
