@@ -49,7 +49,7 @@
             "endDate": "2024-02-01",
             "summary": " I played a key role in a project focused on enhancing WebGIS applications. My main contributions were to the development and maintenance of a modular frontend GIS viewer and the creation of a configuration page for easy client customization. This effort was part of a four-person team dedicated to innovating GIS tools, requiring expertise in web development, GIS, Agile methodologies, and technologies like GeoServer and PostGIS.",
             "highlights": ["Developed...."],
-            "skills": ["JavaScript", "React", "Redux", "Node.js", "PostGIS", "GeoServer", "Agile", "Scrum", "JIRA", "Git"]
+            "skills": ["Agile", "GeoServer", "PostGIS", "JavaScript", "React", "Docker", "Git", "React", "Angular", "Figma", "Leaflet", "CSS"]
         },
         {
             "name": "GIS Specialisten - TPG",
@@ -58,7 +58,8 @@
             "startDate": "2022-01-01",
             "endDate": "2023-01-01",
             "summary": " I participated in a wide range of geo-information and geo-ICT projects. The position required a versatile skill set, including data analysis, mapping, process automation, spatial database management, and supporting the development team with various programming tasks",
-            "highlights": ["Developed...."]
+            "highlights": ["Developed...."],
+            "skills": ["Qgis", "Python", "PostGIS", "FME", "ArcGIS Pro", "JavaScript", "AGOL", "GeoPandas", "OGC Standards"]
         },
         {
             "name": "GIS Specialisten - TPG",
@@ -67,16 +68,18 @@
             "startDate": "2021-06-01",
             "endDate": "2021-12-31",
             "summary": "During my internship as a Web-GIS Developer, I was part of a small development team of 4. My main project focused on spatio-temporal data visualization in a Web-GIS application. The organization identified a need for a tool to represent the temporal dimension of geo-data, given its relevance in multi-temporal spatial datasets.",
-            "highlights": ["Developed...."]
+            "highlights": ["Developed...."],
+            "skills": ["Qgis", "Python", "PostGIS", "JavaScript", "Remote Sensing", "GEE", "TypeScript", "React"]
         },
         {
             "name": "Cartography & GIS Service - Universitat de Lleida",
-            "position": "Junior GIS Researcher",
+            "position": "Junior GIS Technician",
             "url": "https://dgha.udl.cat/ca/Serveis-CT/Serveis_CT/sct-de-cartografia-i-sig/",
             "startDate": "2017-09-01",
             "endDate": "2018-12-31",
             "summary": "This role was situated within an academic context, offering support across various geographical and spatial research projects. Our work catered to both internal clients, such as professors from different university departments, and external stakeholders. Working part-time at 20 hours per week, I managed to balance this role with my academic studies, bridging the gap between academic research and real-world GIS applications.",
-            "highlights": ["Developed...."]
+            "highlights": ["Developed...."],
+            "skills": ["Qgis", "Excel", "ArcMap", "Adobe Illustrator", "Cartography", "Spatial Analysis", "Data Management"]
         }
     ],
     "volunteer": [
