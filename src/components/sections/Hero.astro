@@ -102,10 +102,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     }
 
     img {
-        aspect-ratio: 1/1;
+        aspect-ratio: 1 / 1;
         object-fit: cover;
-        width: 128px;
+        width: 160px;
         border-radius: 16px;
+        object-position: top;
+        overflow-clip-margin: unset;
     }
 
     footer {
