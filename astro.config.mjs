@@ -6,4 +6,5 @@ import react from '@astrojs/react';
 export default defineConfig({
     integrations: [react()],
     site: 'https://gerardathletics.github.io',
+    base: 'minimalist-cv-gerard',
 });
