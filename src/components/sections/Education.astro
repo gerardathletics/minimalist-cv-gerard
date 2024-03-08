@@ -1,79 +1,79 @@
 ---
-import Section from "../Section.astro"
+import Section from '../Section.astro';
 
-import { education } from "@cv"
+import { education } from '@cv';
 ---
 
 <Section title="Education">
-  <ul>
-    {
-      education.map(({ institution, startDate, endDate, area }) => {
-        const startYear = new Date(startDate).getFullYear()
-            const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'long' })
-            const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
-            const endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'long' }) : "Present" 
-            const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
+    <ul>
+        {
+            education.map(({ institution, startDate, endDate, area }) => {
+                const startYear = new Date(startDate).getFullYear();
+                const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' });
+                let endYear = endDate != null ? new Date(endDate).getFullYear() : '';
+                let endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'short' }) : 'Present';
+                const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`;
 
-        return (
-          <li>
-            <article>
-              <header>
-                <div>
-                  <h3>{institution}</h3>
-                </div>
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <div>
+                                    <h3>{institution}</h3>
+                                </div>
 
-                <time>{years}</time>
-              </header>
+                                <time>{years}</time>
+                            </header>
 
-              <footer>
-                <p>{area}</p>
-              </footer>
-            </article>
-          </li>
-        )
-      })
-    }
-  </ul>
+                            <footer>
+                                <p>{area}</p>
+                            </footer>
+                        </article>
+                    </li>
+                );
+            })
+        }
+    </ul>
 </Section>
 
 <style>
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
-
-  article h3 {
-    font-weight: 500;
-    color: #111;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4px;
-  }
-
-  time {
-    color: #555;
-    font-size: 0.85rem;
-    min-width: 102px;
-    padding-top: .6rem;
-  }
-
-  @media (width <= 700px) {
-    time {
-      text-align: right;
-      font-size: small;
-      max-width: 40vw;
-      padding-top: 0 ;
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
     }
 
     article h3 {
-      font-weight: 500;
-      font-size: large;
-      color: #111;
+        font-weight: 500;
+        color: #111;
     }
-  }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+        min-width: 102px;
+        padding-top: 0.6rem;
+    }
+
+    @media (width <= 700px) {
+        time {
+            text-align: right;
+            font-size: small;
+            max-width: 40vw;
+            padding-top: 0.3rem;
+        }
+
+        article h3 {
+            font-weight: 500;
+            font-size: large;
+            color: #111;
+        }
+    }
 </style>

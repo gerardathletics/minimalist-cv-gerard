@@ -11,8 +11,8 @@ import { work } from "@cv"
         ({ name, startDate, endDate, position, summary, highlights, skills, url } , index) => {
             const startYear = new Date(startDate).getFullYear()
             const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' })
-            const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
-            const endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'short' }) : "Present" 
+            let endYear = endDate != null ? new Date(endDate).getFullYear() : "";
+            let endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'short' }) : "Present"; 
             const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
             const highlightsId: string = `highlights-${index}`;
 

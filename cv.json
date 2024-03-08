@@ -438,7 +438,7 @@
     ],
     "projects": [
         {
-            "name": "Lat Lon Finder",
+            "name": "Lat Lon Finder - Not published yet",
             "isActive": true,
             "description": "Find cities along a latitude and longitude line",
             "highlights": ["NextJS"],
