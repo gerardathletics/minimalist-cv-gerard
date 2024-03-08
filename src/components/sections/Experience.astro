@@ -8,12 +8,14 @@ import { work } from "@cv"
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+        ({ name, startDate, endDate, position, summary, highlights, skills, url } , index) => {
             const startYear = new Date(startDate).getFullYear()
             const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' })
             const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
             const endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'short' }) : "Present" 
             const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
+            const toggleId = `toggle-highlights-${index}`;
+            const highlightsId: string = `highlights-${index}`;
 
   return (
     <li>
@@ -33,6 +35,21 @@ import { work } from "@cv"
 
         <footer>
           <p>{summary}</p>
+          <button data-target={highlightsId} >▶</button>
+              <div id={highlightsId} style="display: none;">
+                <ul>
+                  {highlights.map((highlight) => (
+                    <li>{highlight}</li>
+                  ))}
+                </ul>
+              </div>
+            <ul>
+                {
+                skills?.map((skill, index) => (
+                    <li >{skill}</li> <!-- Astro manages keys under the hood, so no need to add key -->
+                ))
+                }
+            </ul>
         </footer>
       </article>
     </li>
@@ -42,6 +59,23 @@ import { work } from "@cv"
     }
   </ul>
 </Section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('button[data-target]').forEach(button => {
+    button.addEventListener('click', () => {
+      const targetId = button.getAttribute('data-target');
+      const targetElement = document.getElementById(targetId as string);
+      if (targetElement) {
+        const isVisible = targetElement.style.display === 'block';
+        targetElement.style.display = isVisible ? 'none' : 'block';
+        button.textContent = isVisible ? '▶' : '▼';
+      }
+    });
+  });
+});
+
+</script>
 
 <style>
   ul {
@@ -80,6 +114,83 @@ import { work } from "@cv"
     font-size: 0.85rem;
     min-width: 102px;
     padding-top: .6rem;
+  }
+
+  footer ul {
+    list-style: none; 
+    flex-direction: row;
+    padding: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+footer ul li {
+    background-color: #f2f2f2; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-size: 0.7rem; 
+    font-weight: 500; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    white-space: nowrap; 
+}
+
+button[data-target] {
+    background-color: #fff; 
+    color: #333; 
+    border: 2px solid #ddd; 
+    border-radius: 5px; 
+    padding: 3px 6px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    font-size: 9px; 
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
+  button[data-target]:hover {
+    background-color: #f9f9f9; 
+    border-color: #bbb; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+
+  button[data-target]:focus {
+    outline: none; 
+    border-color: #999; 
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); 
+  }
+
+  div[id^="highlights-"] {
+    background-color: #f9f9f9; 
+    padding: 8px; 
+    border-radius: 5px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 10px; 
+    max-width: 100%;
+  }
+
+  div[id^="highlights-"] ul {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    margin: 10px 0; 
+    flex-direction: column;
+  }
+
+  div[id^="highlights-"] li {
+    margin-bottom: 0px !important;
+    color: #333; 
+    font-size: 16px;
+    padding: none !important; 
+    box-shadow: none !important; 
+    background-color: #f9f9f9 !important;
+    white-space: normal !important;
+  }
+
+  div[id^="highlights-"] li:last-child {
+    margin-bottom: 0;
   }
 
   @media (width <= 700px) {
