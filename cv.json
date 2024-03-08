@@ -444,22 +444,6 @@
             "highlights": ["NextJS"],
             "github": "",
             "url": ""
-        },
-        {
-            "name": "Lat Lon Finder",
-            "isActive": true,
-            "description": "Find cities along a latitude and longitude line",
-            "highlights": ["NextJS"],
-            "github": "",
-            "url": ""
-        },
-        {
-            "name": "Lat Lon Finder",
-            "isActive": true,
-            "description": "Find cities along a latitude and longitude line",
-            "highlights": ["NextJS"],
-            "github": "",
-            "url": ""
         }
     ]
 }
