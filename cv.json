@@ -43,8 +43,8 @@
             "position": "Geospatial Developer",
             "url": "https://www.ordina.com/",
             "startDate": "2024-03-01",
-            "summary": "",
-            "highlights": ["Developed...."]
+            "summary": "Started recently as a Geospatial Developer & ICT Consultant",
+            "highlights": [""]
         },
         {
             "name": "The People Group",
@@ -99,7 +99,12 @@
             "startDate": "2017-09-01",
             "endDate": "2018-12-31",
             "summary": "This role was situated within an academic context, offering support across various geographical and spatial research projects. Our work catered to both internal clients, such as professors from different university departments, and external stakeholders. Working part-time at 20 hours per week, I managed to balance this role with my academic studies, bridging the gap between academic research and real-world GIS applications.",
-            "highlights": ["Developed...."],
+            "highlights": [
+                "I converted traditional maps into digital formats, making sure they were accurate and easy to use.",
+                "Used ArcMap extensively for creating and analyzing maps, helping to visualize geographic data.",
+                "Used Adobe Illustrator to improve map designs, making them both beautiful and scientifically accurate.",
+                "Used Excel for organizing and analyzing spatial data, ensuring accuracy and usefulness for research."
+            ],
             "skills": ["Qgis", "Excel", "ArcMap", "Adobe Illustrator", "Cartography", "Spatial Analysis", "Data Management"]
         }
     ],

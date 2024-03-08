@@ -14,47 +14,48 @@ import { work } from "@cv"
             const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
             const endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'short' }) : "Present" 
             const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
-            const toggleId = `toggle-highlights-${index}`;
             const highlightsId: string = `highlights-${index}`;
 
-  return (
-    <li>
-      <article>
-        <header>
-          <div>
-            <h3>
-              <a href={url} title={`Ver ${name}`} target="_blank">
-                {name}
-              </a>
-            </h3>
-            <h4>{position}</h4>
-          </div>
+            return (
+                <li>
+                <article>
+                    <header>
+                    <div>
+                        <h3>
+                        <a href={url} title={`Ver ${name}`} target="_blank">
+                            {name}
+                        </a>
+                        </h3>
+                        <h4>{position}</h4>
+                    </div>
 
-          <time>{years}</time> <!-- years variable now includes months -->
-        </header>
+                    <time>{years}</time> <!-- years variable now includes months -->
+                    </header>
 
-        <footer>
-          <p>{summary}</p>
-          <button data-target={highlightsId} >▶</button>
-              <div id={highlightsId} style="display: none;">
-                <ul>
-                  {highlights.map((highlight) => (
-                    <li>{highlight}</li>
-                  ))}
-                </ul>
-              </div>
-            <ul>
-                {
-                skills?.map((skill, index) => (
-                    <li >{skill}</li> <!-- Astro manages keys under the hood, so no need to add key -->
-                ))
-                }
-            </ul>
-        </footer>
-      </article>
-    </li>
-  )
-}
+                    <footer>
+                        <p>{summary}</p>
+                        {(highlights.length > 0 && highlights[0] !== "") && (
+                            <button data-target={highlightsId}>▶</button>
+                        )}
+                        <div id={highlightsId} style="display: none;">
+                            <ul>
+                            {highlights.map((highlight) => (
+                                <li>{highlight}</li>
+                            ))}
+                            </ul>
+                        </div>
+                        <ul>
+                            {
+                            skills?.map((skill) => (
+                                <li >{skill}</li> <!-- Astro manages keys under the hood, so no need to add key -->
+                            ))
+                            }
+                        </ul>
+                    </footer>
+                </article>
+                </li>
+            )
+            }
       )
     }
   </ul>
