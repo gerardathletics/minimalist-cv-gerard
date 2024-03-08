@@ -8,5 +8,6 @@ const LIVE_URL = 'https://gerardathletics.github.io/';
 export default defineConfig({
     integrations: [react()],
     site: LIVE_URL,
+    base: '/minimalist-cv-gerard',
     output: 'static',
 });
