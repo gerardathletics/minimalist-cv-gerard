@@ -62,19 +62,18 @@ import { work } from "@cv"
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll('button[data-target]').forEach(button => {
-    button.addEventListener('click', () => {
-      const targetId = button.getAttribute('data-target');
-      const targetElement = document.getElementById(targetId as string);
-      if (targetElement) {
-        const isVisible = targetElement.style.display === 'block';
-        targetElement.style.display = isVisible ? 'none' : 'block';
-        button.textContent = isVisible ? '▶' : '▼';
-      }
+        document.querySelectorAll('button[data-target]').forEach(button => {
+            button.addEventListener('click', () => {
+            const targetId = button.getAttribute('data-target');
+            const targetElement = document.getElementById(targetId as string);
+            if (targetElement) {
+                const isVisible = targetElement.style.display === 'block';
+                targetElement.style.display = isVisible ? 'none' : 'block';
+                button.textContent = isVisible ? '▶' : '▼';
+            }
+            });
+        });
     });
-  });
-});
-
 </script>
 
 <style>
@@ -123,70 +122,77 @@ import { work } from "@cv"
     display: flex; 
     flex-wrap: wrap; 
     gap: 10px; 
-}
+    }
 
-footer ul li {
-    background-color: #f2f2f2; 
-    padding: 5px 10px; 
-    border-radius: 5px; 
-    font-size: 0.7rem; 
-    font-weight: 500; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    white-space: nowrap; 
-}
+    footer ul li {
+        background-color: #f2f2f2; 
+        padding: 5px 10px; 
+        border-radius: 5px; 
+        font-size: 0.7rem; 
+        font-weight: 500; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        white-space: nowrap; 
+    }
 
-button[data-target] {
-    background-color: #fff; 
-    color: #333; 
-    border: 2px solid #ddd; 
-    border-radius: 5px; 
-    padding: 3px 6px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    cursor: pointer; 
-    transition: all 0.3s ease; 
-    font-size: 9px; 
-    display: inline-flex; 
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 8px;
-  }
+    footer p {
+        margin-top: 8px; 
+        font-size: 0.8rem; 
+        color: #333; 
+    }
 
-  button[data-target]:hover {
-    background-color: #f9f9f9; 
-    border-color: #bbb; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-  }
+    button[data-target] {
+        background-color: #fff; 
+        color: #333; 
+        border: 2px solid #ddd; 
+        border-radius: 5px; 
+        padding: 3px 6px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        cursor: pointer; 
+        transition: all 0.3s ease; 
+        font-size: 9px; 
+        display: inline-flex; 
+        align-items: center;
+        justify-content: center;
+        margin-top: 3px;
+        margin-bottom: 8px;
+    }
 
-  button[data-target]:focus {
-    outline: none; 
-    border-color: #999; 
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); 
-  }
+    button[data-target]:hover {
+        background-color: #f9f9f9; 
+        border-color: #bbb; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    }
 
-  div[id^="highlights-"] {
-    background-color: #f9f9f9; 
-    padding: 8px; 
-    border-radius: 5px; 
-    border: 1px solid #ddd; 
-    margin-bottom: 10px; 
-    max-width: 100%;
-  }
+    button[data-target]:focus {
+        outline: none; 
+        border-color: #999; 
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); 
+    }
+
+    div[id^="highlights-"] {
+        background-color: #f9f9f9; 
+        padding: 8px; 
+        border-radius: 5px; 
+        border: 1px solid #ddd; 
+        margin-bottom: 10px; 
+        max-width: 100%;
+    }
 
   div[id^="highlights-"] ul {
     list-style-type: disc; 
     padding-left: 20px; 
-    margin: 10px 0; 
     flex-direction: column;
+    margin: 0.2rem;
   }
 
   div[id^="highlights-"] li {
     margin-bottom: 0px !important;
-    color: #333; 
-    font-size: 16px;
-    padding: none !important; 
+    font-size: 0.7rem !important;
+    padding: 0 0 !important; 
     box-shadow: none !important; 
     background-color: #f9f9f9 !important;
     white-space: normal !important;
+    color: #333 !important;
   }
 
   div[id^="highlights-"] li:last-child {
@@ -202,9 +208,9 @@ button[data-target] {
     }
 
     article h3 {
-    font-weight: 500;
-    font-size: large;
-    color: #111;
-  }
+        font-weight: 500;
+        font-size: large;
+        color: #111;
+    }
   }
 </style>

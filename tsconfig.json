@@ -1,7 +1,7 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "D:/GIS_discD/Repos/minimalist-cv-gerard",
+    "baseUrl": ".",
     "paths": {
       "@cv": [
         "./cv.json"
