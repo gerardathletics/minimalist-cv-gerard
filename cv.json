@@ -2,7 +2,7 @@
     "basics": {
         "name": "Gerard Mateu Porras Cantons",
         "label": "GIS Specialist & Developer | Geo-ICT, Web-GIS, Geo-data & Cartography",
-        "image": "/me.webp",
+        "image": "./me.webp",
         "email": "gerardporras@gmail.com",
         "phone": "+31 620559965",
         "url": "",
