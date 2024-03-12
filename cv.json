@@ -2,7 +2,7 @@
     "basics": {
         "name": "Gerard Mateu Porras Cantons",
         "label": "GIS Specialist & Developer | Geo-ICT, Web-GIS, Geo-data & Cartography",
-        "image": "./minimalist-cv-gerard/me.webp",
+        "image": "./me.webp",
         "email": "gerardporras@gmail.com",
         "phone": "+31 621166786",
         "url": "",
@@ -463,37 +463,37 @@
             "title": "Catalonia athletics tracks",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "/src/assets/maps/athletics_tracks.webp"
+            "url": "./src/assets/maps/athletics_tracks.webp"
         },
         {
             "title": "Lleida Lego Map",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "/src/assets/maps/lleida_lego.webp"
+            "url": "./src/assets/maps/lleida_lego.webp"
         },
         {
             "title": "Athletes per Sq/km",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "/src/assets/maps/federats_km2.webp"
+            "url": "./src/assets/maps/federats_km2.webp"
         },
         {
             "title": "Trains network in Catalonia",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "/src/assets/maps/xarxa_ferroviaria.webp"
+            "url": "./src/assets/maps/xarxa_ferroviaria.webp"
         },
         {
             "title": "Catalonia's forests",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "/src/assets/maps/boscos_cat.webp"
+            "url": "./src/assets/maps/boscos_cat.webp"
         },
         {
             "title": "Spain's agricultural zones",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "/src/assets/maps/zonas_agricolas.webp"
+            "url": "./src/assets/maps/zonas_agricolas.webp"
         }
     ]
 }
