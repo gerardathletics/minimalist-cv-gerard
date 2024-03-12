@@ -457,7 +457,7 @@
             "title": "Rivers in Catalonia",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "./maps/athletics_tracks.webp"
+            "url": "./maps/riversmap.webp"
         },
         {
             "title": "Catalonia athletics tracks",
