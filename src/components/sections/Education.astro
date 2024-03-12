@@ -1,7 +1,7 @@
 ---
 import Section from '../Section.astro';
 
-import { education } from '@cv';
+import { education, certificates } from '@cv';
 ---
 
 <Section title="Education">
@@ -34,6 +34,34 @@ import { education } from '@cv';
             })
         }
     </ul>
+    <Section title="Certificates">
+        <ul>
+            {
+                certificates.map(({ name, issuer, date }) => {
+                    const year = new Date(date).getFullYear();
+                    const month = new Date(date).toLocaleString('en-US', { month: 'short' });
+
+                    return (
+                        <li>
+                            <article>
+                                <header>
+                                    <div>
+                                        <h3>{name}</h3>
+                                    </div>
+
+                                    <time>{`${month} ${year}`}</time>
+                                </header>
+
+                                <footer>
+                                    <p>{issuer}</p>
+                                </footer>
+                            </article>
+                        </li>
+                    );
+                })
+            }
+        </ul>
+    </Section>
 </Section>
 
 <style>
