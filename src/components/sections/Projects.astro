@@ -44,7 +44,7 @@ import { projects, maps } from '@cv';
             maps.map(({ title, description, technologies, url }) => {
                 return (
                     <div class="map-item">
-                        <img src={url} alt={`Map titled: ${title}`} loading="lazy" />
+                        <img src={url} alt={`${title}`} loading="lazy" />
                         <div class="map-info">
                             <h4>{title}</h4>
                             <p>{description}</p>
@@ -172,7 +172,7 @@ import { projects, maps } from '@cv';
 
     .map-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
         gap: 1rem;
     }
 
@@ -198,7 +198,7 @@ import { projects, maps } from '@cv';
         background: rgba(0, 0, 0, 0.5);
         color: #fff;
         width: 100%;
-        padding: 10px;
+        padding: 3px;
         display: none;
         font-size: 0.6rem;
     }

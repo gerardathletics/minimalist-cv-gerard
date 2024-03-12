@@ -454,22 +454,149 @@
     ],
     "maps": [
         {
-            "title": "Rivers in Catalonia",
+            "title": "Balearic sea",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "./maps/riversmap.webp"
+            "url": "./maps/balearic.webp"
         },
         {
-            "title": "Catalonia athletics tracks",
+            "title": "Utrecht trees",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "./maps/athletics_tracks.webp"
+            "url": "./maps/utrecht_trees.webp"
+        },
+
+        {
+            "title": "Catalunya",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/catalunya_lines.webp"
+        },
+        {
+            "title": "Earthquakes in Spain",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/terremotos_esp.webp"
+        },
+        {
+            "title": "Geological old 3D",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/spain_geo_3d.webp"
         },
         {
             "title": "Lleida Lego Map",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
             "url": "./maps/lleida_lego.webp"
+        },
+        {
+            "title": "Catalonia's forests",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/boscos_cat.webp"
+        },
+        {
+            "title": "Spain's agricultural zones",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/zonas_agricolas.webp"
+        },
+        {
+            "title": "Landscape model",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/landscape_red.webp"
+        },
+        {
+            "title": "Highest mountains in Spain",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/high_mount_esp.webp"
+        },
+        {
+            "title": "Camarasa in points",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/points_camarasa.webp"
+        },
+        {
+            "title": "Rivers in Catalonia",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/riversmap.webp"
+        },
+        {
+            "title": "Relief of Noguera",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/3d_noguera.webp"
+        },
+        {
+            "title": "Bus lines in Lleida",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/buses_lleida.webp"
+        },
+        {
+            "title": "Chrono Travel",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/chrono_travel.webp"
+        },
+        {
+            "title": "Bonne projection",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/bonne.webp"
+        },
+        {
+            "title": "Lleida 3d",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/lleida_3d.webp"
+        },
+        {
+            "title": "Mariola urban",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/mariola.webp"
+        },
+        {
+            "title": "Athletes in Catalonia",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/athletes_cat.webp"
+        },
+        {
+            "title": "Rivers in Spain",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/rivers_esp.webp"
+        },
+        {
+            "title": "Equal Azimuthal projection",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/azimuthal.webp"
+        },
+        {
+            "title": "Ven der Grinten projection",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/vendergrinten.webp"
+        },
+        {
+            "title": "Tweets in Amsterdam",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/tweets_amsterdam.webp"
+        },
+        {
+            "title": "Tweets in Amsterdam 2",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/tweets_amsterdam2.webp"
         },
         {
             "title": "Athletes per Sq/km",
@@ -484,16 +611,102 @@
             "url": "./maps/xarxa_ferroviaria.webp"
         },
         {
-            "title": "Catalonia's forests",
+            "title": "Sant Salvador Model",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "./maps/boscos_cat.webp"
+            "url": "./maps/blender_mount.webp"
         },
         {
-            "title": "Spain's agricultural zones",
+            "title": "Wageningen Ecological Corridor",
             "description": "",
             "technologies": ["Leaflet", "Mapbox"],
-            "url": "./maps/zonas_agricolas.webp"
+            "url": "./maps/eco_corridor.webp"
+        },
+        {
+            "title": "Athletics tracks isochrones",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/iso_tracks.webp"
+        },
+        {
+            "title": "Biomes Spain",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/bio_esp.webp"
+        },
+        {
+            "title": "Catalonia athletics tracks",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/athletics_tracks.webp"
+        },
+
+        {
+            "title": "Brazilian Metropolitan areas",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/brazil_metro.webp"
+        },
+
+        {
+            "title": "Litter in Utrecht",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/litter_utrecht.webp"
+        },
+        {
+            "title": "Lleida Aerialod",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/lleida_aerial.webp"
+        },
+        {
+            "title": "La Palma eruption",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/palma_eruption.webp"
+        },
+        {
+            "title": "3D population density in Lleida",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/popdens_lleida.webp"
+        },
+        {
+            "title": "Rain in Spain",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/rain_esp.webp"
+        },
+        {
+            "title": "Diamond League stadiums",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/stadiums.webp"
+        },
+        {
+            "title": "Subterraneal water in Spain",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/sub_water.webp"
+        },
+        {
+            "title": "Tenerife OSM",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/tenerife.webp"
+        },
+        {
+            "title": "Earthquakes in Spain 3D",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/terremotos_3d.webp"
+        },
+        {
+            "title": "Urban and Rural comparison",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "./maps/urban-rural.webp"
         }
     ]
 }
