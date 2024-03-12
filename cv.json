@@ -2,9 +2,9 @@
     "basics": {
         "name": "Gerard Mateu Porras Cantons",
         "label": "GIS Specialist & Developer | Geo-ICT, Web-GIS, Geo-data & Cartography",
-        "image": "./me.webp",
+        "image": "./minimalist-cv-gerard/me.webp",
         "email": "gerardporras@gmail.com",
-        "phone": "+31 620559965",
+        "phone": "+31 621166786",
         "url": "",
         "summary": "GIS Developer with a strong foundation in GEO-IT, skilled in making sense of spatial data analysis and bringing it to life through web applications. A collaborative professional dedicated to continuous learning, clear communication, and leveraging the latest technology to tackle complex challenges.",
         "location": {
@@ -204,7 +204,7 @@
         {
             "name": "Erdas",
             "category": "GIS & Remote Sensing",
-            "level": "Intermediate",
+            "level": "Basic",
             "keywords": ["GIS", "Spatial Analysis"]
         },
         {
@@ -216,7 +216,7 @@
         {
             "name": "Autocad",
             "category": "GIS & Remote Sensing",
-            "level": "Intermediate",
+            "level": "Basic",
             "keywords": ["GIS", "Spatial Analysis"]
         },
         {
@@ -316,7 +316,7 @@
             "keywords": ["Programming", "Web Development"]
         },
         {
-            "name": "Web-Development (HTML, CSS, JavaScript, React, Leaflet…)",
+            "name": "TypeScript",
             "category": "Programming",
             "level": "Intermediate",
             "keywords": ["Programming", "Web Development"]
@@ -343,6 +343,12 @@
             "name": "CSS",
             "category": "Programming",
             "level": "Intermediate",
+            "keywords": ["Programming", "Web Development"]
+        },
+        {
+            "name": "TailwindCSS",
+            "category": "Programming",
+            "level": "Basic",
             "keywords": ["Programming", "Web Development"]
         },
         {
@@ -376,7 +382,7 @@
             "keywords": ["Programming", "Web Development"]
         },
         {
-            "name": "Agile methodologies (Scrum, Kanban…)",
+            "name": "Scrum",
             "category": "Other",
             "level": "Intermediate",
             "keywords": ["Agile", "DevOps"]
@@ -444,6 +450,50 @@
             "highlights": ["NextJS"],
             "github": "",
             "url": ""
+        }
+    ],
+    "maps": [
+        {
+            "title": "Rivers in Catalonia",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "/src/assets/maps/riversmap.webp"
+        },
+        {
+            "title": "Catalonia athletics tracks",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "/src/assets/maps/athletics_tracks.webp"
+        },
+        {
+            "title": "Lleida Lego Map",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "/src/assets/maps/lleida_lego.webp"
+        },
+        {
+            "title": "Athletes per Sq/km",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "/src/assets/maps/federats_km2.webp"
+        },
+        {
+            "title": "Trains network in Catalonia",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "/src/assets/maps/xarxa_ferroviaria.webp"
+        },
+        {
+            "title": "Catalonia's forests",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "/src/assets/maps/boscos_cat.webp"
+        },
+        {
+            "title": "Spain's agricultural zones",
+            "description": "",
+            "technologies": ["Leaflet", "Mapbox"],
+            "url": "/src/assets/maps/zonas_agricolas.webp"
         }
     ]
 }
