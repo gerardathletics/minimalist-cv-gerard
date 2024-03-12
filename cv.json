@@ -382,6 +382,48 @@
             "keywords": ["Programming", "Web Development"]
         },
         {
+            "name": "Spanish",
+            "category": "Languages",
+            "level": "Advanced",
+            "keywords": ["Agile", "DevOps"]
+        },
+        {
+            "name": "Catalan",
+            "category": "Languages",
+            "level": "Advanced",
+            "keywords": ["Agile", "DevOps"]
+        },
+        {
+            "name": "English",
+            "category": "Languages",
+            "level": "Advanced",
+            "keywords": ["Agile", "DevOps"]
+        },
+        {
+            "name": "Portuguese",
+            "category": "Languages",
+            "level": "Advanced",
+            "keywords": ["Agile", "DevOps"]
+        },
+        {
+            "name": "Dutch",
+            "category": "Languages",
+            "level": "Intermediate",
+            "keywords": ["Agile", "DevOps"]
+        },
+        {
+            "name": "German",
+            "category": "Languages",
+            "level": "Basic",
+            "keywords": ["Agile", "DevOps"]
+        },
+        {
+            "name": "French",
+            "category": "Languages",
+            "level": "Basic",
+            "keywords": ["Agile", "DevOps"]
+        },
+        {
             "name": "Scrum",
             "category": "Other",
             "level": "Intermediate",
