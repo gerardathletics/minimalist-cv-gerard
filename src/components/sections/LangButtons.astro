@@ -1,0 +1,66 @@
+---
+import Section from '../Section.astro';
+import ReactFilterButtons from '../ReactFilterButtons';
+---
+
+<div class="lang-buttons-container">
+    <a href="?lang=en" class="lang-button active-lang" title="English">
+        <img src="./minimalist-cv-gerard/flags/english.png" alt="English" />
+    </a>
+    <a href="?lang=es" class="lang-button" title="Spanish">
+        <img src="./minimalist-cv-gerard/flags/spanish.webp" alt="Spanish" />
+    </a>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const buttons = document.querySelectorAll('.lang-button');
+
+        buttons.forEach((button) => {
+            button.addEventListener('click', function () {
+                // Remove active-lang class from all buttons
+                buttons.forEach((btn) => btn.classList.remove('active-lang'));
+                // Add active-lang class to the clicked button
+                this.classList.add('active-lang');
+            });
+        });
+    });
+</script>
+
+<style>
+    .lang-buttons-container {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1000;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .lang-button {
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border: 2px solid #fff;
+        cursor: pointer;
+    }
+
+    .lang-button img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        filter: grayscale(100%);
+    }
+
+    .lang-button:hover {
+        border: 2px solid #464646;
+    }
+
+    .lang-button.active-lang img {
+        filter: none;
+    }
+</style>
