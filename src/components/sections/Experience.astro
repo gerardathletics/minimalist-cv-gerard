@@ -2,6 +2,7 @@
 import Section from "../Section.astro"
 
 import { work } from "@cv"
+import '../../styles/globals.css'
 ---
 
 <Section title="Work Experience">
@@ -86,11 +87,10 @@ import { work } from "@cv"
 
   article h3 {
     font-weight: 500;
-    color: #111;
   }
 
   article a {
-    color: #111;
+    color: var(--main-1);
   }
 
   article a:hover {
@@ -98,7 +98,6 @@ import { work } from "@cv"
   }
 
   article h4 {
-    color: #222;
     font-weight: 400;
   }
 
@@ -110,7 +109,7 @@ import { work } from "@cv"
   }
 
   time {
-    color: #555;
+    color: var(--main-2);
     font-size: 0.85rem;
     min-width: 102px;
     padding-top: .6rem;
@@ -126,7 +125,7 @@ import { work } from "@cv"
     }
 
     footer ul li {
-        background-color: #f2f2f2; 
+        background-color: var(--main-4); 
         padding: 5px 10px; 
         border-radius: 5px; 
         font-size: 0.7rem; 
@@ -138,13 +137,13 @@ import { work } from "@cv"
     footer p {
         margin-top: 8px; 
         font-size: 0.8rem; 
-        color: #333; 
+        color: var(--main-2); 
     }
 
     button[data-target] {
-        background-color: #fff; 
+        background-color: var(--base-2); 
         color: #333; 
-        border: 2px solid #ddd; 
+        border: 2px solid var(--main-3); 
         border-radius: 5px; 
         padding: 3px 6px; 
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -156,25 +155,26 @@ import { work } from "@cv"
         justify-content: center;
         margin-top: 3px;
         margin-bottom: 8px;
+        
     }
 
     button[data-target]:hover {
-        background-color: #f9f9f9; 
-        border-color: #bbb; 
+        background-color: var(--base-1); 
+        border-color: var(--main-3); 
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
     }
 
     button[data-target]:focus {
         outline: none; 
-        border-color: #999; 
-        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); 
+        border-color: var(--main-2); 
+        box-shadow: 0 0 0 3px rgba(91, 91, 91, 0.1); 
     }
 
     div[id^="highlights-"] {
-        background-color: #f9f9f9; 
+        background-color: var(--base-1); 
         padding: 8px; 
         border-radius: 5px; 
-        border: 1px solid #ddd; 
+        border: 1px solid var(--main-1); 
         margin-bottom: 10px; 
         max-width: 100%;
     }
@@ -191,9 +191,9 @@ import { work } from "@cv"
     font-size: 0.7rem !important;
     padding: 0 0 !important; 
     box-shadow: none !important; 
-    background-color: #f9f9f9 !important;
+    background-color: var(--base-1) !important;
     white-space: normal !important;
-    color: #333 !important;
+    color: var(--main-2) !important;
   }
 
   div[id^="highlights-"] li:last-child {
