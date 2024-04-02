@@ -8,6 +8,7 @@ import LinkedIn from '@/icons/LinkedIn.astro';
 import GitHub from '@/icons/GitHub.astro';
 import WorldMap from '@/icons/WorldMap.astro';
 import Flickr from '@/icons/Flickr.astro';
+import '../../styles/globals.css';
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -84,7 +85,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
     }
 
     span {
-        color: #666;
+        color: var(--main-3);
         display: flex;
         align-items: center;
         gap: 0.25rem;
@@ -94,10 +95,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
 
     h1 {
         font-size: 2rem;
+        color: var(--main-1);
     }
 
     h2 {
-        color: #444;
+        color: var(--main-2);
         font-size: 1.1rem;
         font-weight: 500;
         text-wrap: balance;
@@ -128,14 +130,14 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ');
         height: 28px;
         border-radius: 50%;
         padding: 4px;
-        color: #777;
-        background-color: #eee;
+        color: var(--main-2);
+        background-color: var(--base-1);
         transition: all 0.3s ease;
     }
 
     footer a:hover {
         color: #fff;
-        background-color: #474747;
+        background-color: var(--contrast-1);
     }
 
     @media (width <= 700px) {

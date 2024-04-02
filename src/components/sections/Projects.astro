@@ -14,7 +14,7 @@ import { projects, maps } from '@cv';
                         <article>
                             <header>
                                 <h3>
-                                    <a href={url} title={`Ver el proyecto ${name}`}>
+                                    <a href={url} title={`See the project ${name}`}>
                                         {name}
                                     </a>
                                     {isActive && <span>•</span>}
@@ -133,11 +133,12 @@ import { projects, maps } from '@cv';
     }
 
     article a {
-        color: #111;
+        color: var(--main-1);
     }
 
     article a:hover {
         text-decoration: underline;
+        color: var(--contrast-1);
     }
 
     article p {
@@ -159,8 +160,8 @@ import { projects, maps } from '@cv';
 
     footer span {
         border-radius: 6px;
-        background: #eee;
-        color: #444;
+        background-color: var(--main-4);
+        color: var(--main-1);
         font-size: 0.6rem;
         font-weight: 500;
         padding: 0.2rem 0.6rem;
@@ -186,6 +187,10 @@ import { projects, maps } from '@cv';
         height: auto;
         filter: grayscale(100%);
         transition: filter 0.3s ease;
+    }
+
+    .map-item h4 {
+        color: var(--base-1);
     }
 
     .map-item:hover img {

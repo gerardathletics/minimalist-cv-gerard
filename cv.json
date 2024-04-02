@@ -122,33 +122,36 @@
     "education": [
         {
             "institution": "TYC GIS Academy",
-            "url": "",
+            "url": "https://www.cursosgis.com/curso-online-de-especialista-en-web-gis/#1486375549952-06a77965-6712",
             "area": "Web GIS Specialization",
+            "description": "Intensive 240-hour course conducted by TYC GIS Formación. Throughout the course, the field of Web GIS was extensively explored, providing comprehensive training that ranged from fundamental concepts to the handling of advanced tools and technologies.",
             "studyType": "course",
             "startDate": "2023-01-01",
             "endDate": "2023-05-01",
             "score": "",
-            "courses": []
+            "courses": ["Leaflet", "OpenLayers", "GeoServer", "PostGIS", "MapBox", "Carto", "JavaScript", "ESRI API", "Google Maps"]
         },
         {
             "institution": "Wageningen University & Research",
-            "url": "",
+            "url": "https://www.wur.nl/en/education-programmes/master/msc-programmes/msc-geo-information-science.htm",
             "area": "M.Sc. Geoinformation Science",
+            "description": "Two-year (120 ECTS) M.Sc. programme. Program focused on solving geo-spatial complex issues using geoinformation, spatial analysis and remote sensing techniques. Track: Data Science & Human and Space Interaction. Internship: Web-GIS Development",
             "studyType": "Master of Science",
             "startDate": "2019-09-01",
             "endDate": "2021-01-01",
             "score": "",
-            "courses": ["Python", "Geo-Scripting", "Geostatistics", "Spatial Modelling", "Remote Sensing", "Data Science for Smart environments", "Big Data"]
+            "courses": ["Python", "Geo-Scripting", "Geostatistics", "Spatial Modelling", "Remote Sensing", "Data Science for Smart environments", "Big Data", "Web-GIS"]
         },
         {
             "institution": "Universitat de Lleida",
-            "url": "",
+            "url": "https://www.geografia.udl.cat/en/",
             "area": "B.Sc. Geography & Spatial Planning",
+            "description": "Degree focused on the interaction between people and their environments, spanning urban, territorial, and physical landscapes. It combines practical skills in cartography and geographic information systems (GIS) with an understanding of social and economic dynamics to address issues in urban planning, sustainability, and resource management. Awarded with the extraordinary prize of the Bachelor's Degree.",
             "studyType": "Bachelor of Science",
             "startDate": "2014-09-01",
             "endDate": "2019-01-01",
             "score": "",
-            "courses": []
+            "courses": ["Land Management", "Urban Geography", "Social Geography", "Rural Geography", "Cartography", "GIS", "Hidrology", "Physical Geography"]
         }
     ],
     "awards": [

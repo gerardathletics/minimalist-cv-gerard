@@ -22,8 +22,8 @@ const styles = {
     },
     li: {
         borderRadius: '6px',
-        background: '#eee',
-        color: 'black',
+        background: 'var(--main-4)',
+        color: 'var(--main-1)',
         fontSize: '0.8rem',
         fontWeight: '500',
         padding: '0.2rem 0.6rem',
@@ -48,7 +48,7 @@ const styles = {
         background: "transparent",
         border: "1px solid #f2f2f2",
         borderRadius: "4px",
-        color: "#444",
+        color: "var(--main-1)",
         cursor: "pointer",
         fontSize: "0.9rem",
         fontWeight: "500",
@@ -58,8 +58,7 @@ const styles = {
     },
     buttonActive: {
         outline: "none", 
-        borderCcolor: "#999", 
-        boxShadow: "0 0 0 2px rgba(0, 0, 0, 0.1)", 
+        boxShadow: "0 0 0 2px var(--contrast-shadow)", 
     },
 };
 

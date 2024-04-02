@@ -1,4 +1,6 @@
 ---
+import '../styles/globals.css';
+
 interface Props {
     title: string;
 }
@@ -13,6 +15,7 @@ const { title } = Astro.props;
         <meta name="description" content="Astro description" />
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/minimalist-cv-gerard/favicon.svg" />
+        <link rel="stylesheet" href="/styles/globals.css" />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
     </head>
@@ -59,6 +62,7 @@ const { title } = Astro.props;
     h2,
     h3,
     h4 {
+        color: var(--main-1);
         margin: 0;
         font-family:
             system-ui,
@@ -75,7 +79,7 @@ const { title } = Astro.props;
     }
 
     p {
-        color: #666;
+        color: var(--main-2);
         font-size: 0.9rem;
         line-height: 1.5;
         margin: 0;
