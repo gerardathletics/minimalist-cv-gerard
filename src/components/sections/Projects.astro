@@ -14,7 +14,7 @@ import { projects, maps } from '@cv';
                         <article>
                             <header>
                                 <h3>
-                                    <a href={url} title={`Ver el proyecto ${name}`}>
+                                    <a href={url} title={`See the project ${name}`}>
                                         {name}
                                     </a>
                                     {isActive && <span>•</span>}
@@ -187,6 +187,10 @@ import { projects, maps } from '@cv';
         height: auto;
         filter: grayscale(100%);
         transition: filter 0.3s ease;
+    }
+
+    .map-item h4 {
+        color: var(--base-1);
     }
 
     .map-item:hover img {
