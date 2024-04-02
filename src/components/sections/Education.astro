@@ -7,7 +7,7 @@ import { education, certificates } from '@cv';
 <Section title="Education">
     <ul>
         {
-            education.map(({ institution, startDate, endDate, area }) => {
+            education.map(({ institution, startDate, endDate, area, url, courses, description }) => {
                 const startYear = new Date(startDate).getFullYear();
                 const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' });
                 let endYear = endDate != null ? new Date(endDate).getFullYear() : '';
@@ -19,14 +19,30 @@ import { education, certificates } from '@cv';
                         <article>
                             <header>
                                 <div>
-                                    <h3>{institution}</h3>
+                                    <h3>
+                                        <a href={url} title={`See ${institution}`} target="_blank">{institution} </a>
+                                    </h3>
                                 </div>
 
                                 <time>{years}</time>
                             </header>
 
                             <footer>
-                                <p>{area}</p>
+                                <h4>{area}</h4>
+                                <p>{description}</p>
+                                <div>
+                                    <ul>
+                                        {
+                                            courses.map((course) => {
+                                                return (
+                                                    <li>
+                                                        {course}
+                                                    </li>
+                                                );
+                                            })
+                                        }
+                                    </ul>
+                                </div>
                             </footer>
                         </article>
                     </li>
@@ -54,6 +70,7 @@ import { education, certificates } from '@cv';
 
                                 <footer>
                                     <p>{issuer}</p>
+                        </a>
                                 </footer>
                             </article>
                         </li>
@@ -73,7 +90,17 @@ import { education, certificates } from '@cv';
 
     article h3 {
         font-weight: 500;
-        color: #111;
+        color: var(--main-1);
+    }
+
+    article a {
+        color: var(--main-1);
+    }
+
+
+    article a:hover {
+        text-decoration: underline;
+        color: var(--contrast-1);
     }
 
     header {
@@ -84,11 +111,55 @@ import { education, certificates } from '@cv';
     }
 
     time {
-        color: #555;
+        color: var(--main-2);
         font-size: 0.85rem;
         min-width: 102px;
         padding-top: 0.6rem;
     }
+
+    footer h4 {
+        color: var(--main-1);
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 0.4rem;
+    }
+
+    footer p {
+        margin-top: 8px; 
+        font-size: 0.8rem; 
+        color: var(--main-2); 
+        margin-bottom: 0.6rem;
+    }
+
+    footer span {
+        border-radius: 6px;
+        background-color: var(--main-4);
+        color: var(--main-1);
+        font-size: 0.6rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+    }
+
+    footer ul {
+        list-style: none; 
+        flex-direction: row;
+        padding: 0; 
+        display: flex; 
+        flex-wrap: wrap; 
+        gap: 10px; 
+    }
+
+    footer ul li {
+        background-color: var(--main-4); 
+        color: var(--main-1);
+        padding: 5px 10px; 
+        border-radius: 5px; 
+        font-size: 0.7rem; 
+        font-weight: 500; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        white-space: nowrap; 
+    }
+
 
     @media (width <= 700px) {
         time {

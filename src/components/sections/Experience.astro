@@ -23,7 +23,7 @@ import '../../styles/globals.css'
                     <header>
                     <div>
                         <h3>
-                        <a href={url} title={`Ver ${name}`} target="_blank">
+                        <a href={url} title={`See ${name}`} target="_blank">
                             {name}
                         </a>
                         </h3>
@@ -89,6 +89,11 @@ import '../../styles/globals.css'
     font-weight: 500;
   }
 
+  article h4 {
+    font-weight: 400 !important;
+    
+  }
+
   article a {
     color: var(--main-1);
   }
@@ -127,6 +132,7 @@ import '../../styles/globals.css'
 
     footer ul li {
         background-color: var(--main-4); 
+        color: var(--main-1);
         padding: 5px 10px; 
         border-radius: 5px; 
         font-size: 0.7rem; 
