@@ -43,8 +43,11 @@
             "position": "Geospatial Developer",
             "url": "https://www.ordina.com/",
             "startDate": "2024-03-01",
-            "summary": "Started recently as a Geospatial Developer & ICT Consultant",
-            "highlights": [""]
+            "summary": "As a Geospatial developer and GIS Specialist I work in different internal projects related to the geospatial and IT domain.",
+            "highlights": [
+                "Working in the Front-end of an internal AI tool.",
+                "Collaborating with Utrecht's Landscape Foundation as a GIS Specialist to create dashboards and online maps, increasing awareness and insights into landscape changes."
+            ]
         },
         {
             "name": "The People Group",
@@ -52,7 +55,7 @@
             "url": "https://www.thepeoplegroup.nl/",
             "startDate": "2023-01-01",
             "endDate": "2024-02-01",
-            "summary": " I played a key role in a project focused on enhancing WebGIS applications. My main contributions were to the development and maintenance of a modular frontend GIS viewer and the creation of a configuration page for easy client customization. This effort was part of a four-person team dedicated to innovating GIS tools, requiring expertise in web development, GIS, Agile methodologies, and technologies like GeoServer and PostGIS.",
+            "summary": "During this time, along with three other developers, I worked in developing and maintaining a modular Web-GIS application (with React). In addition, we implemented an intuitive configuration interface with Angular, allowing clients to easily customize the viewer. This challenge demanded knowledge in web development and geographic information systems (GIS), as well as proficiency in agile methodologies and GIS technologies, including GeoServer and PostGIS.",
             "highlights": [
                 "Used TypeScript, React, Leaflet, and Redux to develop a robust WebGIS application, focusing on performance and user experience.",
                 "Applied Figma and Inkscape to design intuitive and interactive GIS web interfaces, emphasizing usability and aesthetic appeal.",
@@ -70,11 +73,10 @@
             "endDate": "2023-01-01",
             "summary": " I participated in a wide range of geo-information and geo-ICT projects. The position required a versatile skill set, including data analysis, mapping, process automation, spatial database management, and supporting the development team with various programming tasks",
             "highlights": [
-                "Conducted training sessions and provided comprehensive documentation for team members on managing geospatial data using QGIS.",
                 "Created data workflows integrating PostGIS databases with GeoServer for visualization and management.",
-                "Engaged in the development of automated browser-based tests using Selenium and Python to streamline testing processes.",
-                "Engaged in various data and spatial analysis projects. Data manipulation, transformation, and analysis using Python, PostGIS, geopandas, and QGIS were part of the process.",
-                "Offered technical support to the development team, especially in Python and React"
+                "Engaged in the development of automated browser-based tests using Selenium and Python.",
+                "Engaged in various data and spatial analysis projects. Data manipulation, transformation and analysis using Python, PostGIS, geopandas, FME, QGIS and ArcGIS Pro.",
+                "Offered technical support to the development team, specially with Python, React and GIS data."
             ],
             "skills": ["Qgis", "Python", "PostGIS", "FME", "ArcGIS Pro", "JavaScript", "AGOL", "GeoPandas", "OGC Standards"]
         },
@@ -84,7 +86,7 @@
             "url": "https://www.thepeoplegroup.nl/",
             "startDate": "2021-06-01",
             "endDate": "2021-12-31",
-            "summary": "During my internship as a Web-GIS Developer, I was part of a small development team of 4. My main project focused on spatio-temporal data visualization in a Web-GIS application. The organization identified a need for a tool to represent the temporal dimension of geo-data, given its relevance in multi-temporal spatial datasets.",
+            "summary": "During my 6 months internship, I was part of a small development team of 4. My main project focused on spatio-temporal data visualization in a Web-GIS application. The organization identified a need for a tool to represent the temporal dimension of geo-data, given its relevance in multi-temporal spatial datasets.",
             "highlights": [
                 "Reviewed literature on Web-GIS and spatio-temporal data visualization and became acquainted with essential tools.",
                 "Engaged in front-end and back-end development, utilizing React and Redux for UI and state management, Leaflet for mapping, and GeoServer for backend data services.",
@@ -488,6 +490,38 @@
         }
     ],
     "projects": [
+        {
+            "name": "Spatio-tempral data visualization in a Web-GIS application",
+            "isActive": false,
+            "description": "A Web-GIS application that visualizes spatio-temporal data, focusing on the temporal dimension of geo-data. The application was developed to address the need for a tool to represent the temporal dimension of geo-data in multi-temporal spatial datasets.",
+            "highlights": ["React", "Redux", "Leaflet", "GeoServer"],
+            "github": "",
+            "url": ""
+        },
+        {
+            "name": "Slums and Urban Land Consumption in Brazilian Metropolitan Areas",
+            "isActive": false,
+            "description": "A study that monitors SDG indicators 11.1.1 and 11.3.1 using open data to address the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazilian metropolitan areas.",
+            "highlights": ["QGIS", "Python"],
+            "github": "",
+            "url": ""
+        },
+        {
+            "name": "Tailoring basemaps for color vision impaired people",
+            "isActive": true,
+            "description": "A consultancy group project focused on optimizing basemaps for individuals with color vision impairments. The project aimed to improve basemap accessibility for colorblind people by identifying problematic color combinations and proposing alternative solutions.",
+            "highlights": ["ArcGIS Pro"],
+            "github": "",
+            "url": "https://agile-giss.copernicus.org/articles/2/37/2021/"
+        },
+        {
+            "name": "Geo-photos",
+            "isActive": true,
+            "description": "This webmap contains geolocated photos of my trips around the world. To me it's a nice way to remember the places I've been and the people I've met. The front-end is built with Angular and Mapbox, and the backend is a Supabase PostGIS database.",
+            "highlights": ["Angular", "Mapbox", "Supabase", "PostGIS"],
+            "github": "",
+            "url": "https://geo-photos.pages.dev/browser/"
+        },
         {
             "name": "Lat Lon Finder - Not published yet",
             "isActive": true,
