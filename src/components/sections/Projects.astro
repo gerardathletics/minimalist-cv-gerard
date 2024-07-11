@@ -85,7 +85,7 @@ import { projects, maps } from '@cv';
         return modal;
     }
 
-    function createModalContent(modal) {
+    function createModalContent(modal: any) {
         const modalContent = document.createElement('img');
         Object.assign(modalContent.style, {
             maxWidth: '80%',
@@ -95,9 +95,9 @@ import { projects, maps } from '@cv';
         return modalContent;
     }
 
-    function attachEventListeners(modal, modalContent) {
+    function attachEventListeners(modal: HTMLElement, modalContent: HTMLImageElement): void {
         document.querySelectorAll('.map-item img').forEach((element) => {
-            const img = element;
+            const img = element as HTMLImageElement;
             img.addEventListener('click', () => {
                 modalContent.src = img.src;
                 modal.style.display = 'flex';
