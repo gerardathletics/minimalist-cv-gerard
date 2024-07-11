@@ -14,12 +14,16 @@ import { projects, maps } from '@cv';
                         <article>
                             <header>
                                 <h3>
-                                    <a href={url} title={`See the project ${name}`}>
-                                        {name}
-                                    </a>
-                                    {isActive && <span>•</span>}
+                                    {url ? (
+                                        <a href={url} target="_blank" rel="noopener noreferrer" title={`See the project ${name}`}>
+                                            {name}
+                                        </a>
+                                    ) : (
+                                        <span class="no-link">{name}</span>
+                                    )}
+                                    {isActive && <span class="active">•</span>}
                                     {github && (
-                                        <a class="github-code-link" href={github} target="_blank" title={`Ver código fuente del proyecto ${name}`}>
+                                        <a class="github-code-link" href={github} target="_blank" rel="noopener noreferrer" title={`Ver código fuente del proyecto ${name}`}>
                                             <GitHub />
                                         </a>
                                     )}
@@ -81,7 +85,7 @@ import { projects, maps } from '@cv';
         return modal;
     }
 
-    function createModalContent(modal: any) {
+    function createModalContent(modal) {
         const modalContent = document.createElement('img');
         Object.assign(modalContent.style, {
             maxWidth: '80%',
@@ -91,9 +95,9 @@ import { projects, maps } from '@cv';
         return modalContent;
     }
 
-    function attachEventListeners(modal: HTMLElement, modalContent: HTMLImageElement): void {
+    function attachEventListeners(modal, modalContent) {
         document.querySelectorAll('.map-item img').forEach((element) => {
-            const img = element as HTMLImageElement;
+            const img = element;
             img.addEventListener('click', () => {
                 modalContent.src = img.src;
                 modal.style.display = 'flex';
@@ -141,14 +145,18 @@ import { projects, maps } from '@cv';
         color: var(--contrast-1);
     }
 
+    .no-link {
+        color: var(--main-1);
+    }
+
+    article h3 span.active {
+        color: rgb(0, 188, 47);
+    }
+
     article p {
         font-size: 0.75rem;
         line-height: 1.2rem;
         margin-bottom: 4px;
-    }
-
-    article h3 span {
-        color: rgb(0, 188, 47);
     }
 
     footer {

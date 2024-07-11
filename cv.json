@@ -502,16 +502,13 @@
             "name": "Slums and Urban Land Consumption in Brazilian Metropolitan Areas",
             "isActive": false,
             "description": "A study that monitors SDG indicators 11.1.1 and 11.3.1 using open data to address the critical issues of fast and uncontrolled urban expansion, slum formation, and their environmental and social impacts in Brazilian metropolitan areas.",
-            "highlights": ["QGIS", "Python"],
-            "github": "",
-            "url": ""
+            "highlights": ["QGIS", "Python"]
         },
         {
             "name": "Tailoring basemaps for color vision impaired people",
             "isActive": true,
             "description": "A consultancy group project focused on optimizing basemaps for individuals with color vision impairments. The project aimed to improve basemap accessibility for colorblind people by identifying problematic color combinations and proposing alternative solutions.",
             "highlights": ["ArcGIS Pro"],
-            "github": "",
             "url": "https://agile-giss.copernicus.org/articles/2/37/2021/"
         },
         {
@@ -519,16 +516,13 @@
             "isActive": true,
             "description": "This webmap contains geolocated photos of my trips around the world. To me it's a nice way to remember the places I've been and the people I've met. The front-end is built with Angular and Mapbox, and the backend is a Supabase PostGIS database.",
             "highlights": ["Angular", "Mapbox", "Supabase", "PostGIS"],
-            "github": "",
             "url": "https://geo-photos.pages.dev/browser/"
         },
         {
             "name": "Lat Lon Finder - Not published yet",
             "isActive": true,
             "description": "Find cities along a latitude and longitude line",
-            "highlights": ["NextJS"],
-            "github": "",
-            "url": ""
+            "highlights": ["NextJS"]
         }
     ],
     "maps": [
