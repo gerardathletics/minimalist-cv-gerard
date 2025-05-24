@@ -39,15 +39,29 @@
     },
     "work": [
         {
-            "name": "Ordina - Sopra Steria",
-            "position": "Geospatial Developer",
+            "name": "Waterschap Limburg (via Sopra Steria)",
+            "position": "Full Stack Developer",
+            "url": "https://www.waterschaplimburg.nl",
+            "startDate": "2025-04-15",
+            "summary": "Full-stack development of the Waterschap Limburg 'Informatie Knooppunt' (IKP). Creating a central hub to manage water systems by semantically integrating data, providing mapping & dashboard tools, and enabling informed decision-making.",
+            "highlights": [
+                "Work on the developement of the IKP frontend application using React, TypeScript, Vite, and TailwindCSS, including Leaflet for map visualizations.",
+                "Implemented backend services and APIs using Node.js, Express, and MongoDB.",
+                "Created Python data pipelines to integrate various data sources for operational, tactical, and strategic use."
+            ],
+            "skills": ["React", "TypeScript", "Python", "MongoDB", "Express", "Leaflet", "TailwindCSS"]
+        },
+        {
+            "name": "Sopra Steria (former Ordina)",
+            "position": "Frontend Developer & GIS Dev Consultant",
             "url": "https://www.ordina.com/",
             "startDate": "2024-03-01",
             "summary": "As a Geospatial developer and GIS Specialist I work in different internal projects related to the geospatial and IT domain.",
             "highlights": [
-                "Working in the Front-end of an internal AI tool.",
+                "Developing (UI/UX) and maintaining an AI powered search tool",
                 "Collaborating with Utrecht's Landscape Foundation as a GIS Specialist to create dashboards and online maps, increasing awareness and insights into landscape changes."
-            ]
+            ],
+            "skills": ["React", "TypeScript", "Python", "QGIS", "Docker", "Git", "Esri"]
         },
         {
             "name": "The People Group",
