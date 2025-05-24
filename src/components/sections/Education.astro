@@ -20,7 +20,9 @@ import { education, certificates } from '@cv';
                             <header>
                                 <div>
                                     <h3>
-                                        <a href={url} title={`See ${institution}`} target="_blank">{institution} </a>
+                                        <a href={url} title={`See ${institution}`} target="_blank">
+                                            {institution}{' '}
+                                        </a>
                                     </h3>
                                 </div>
 
@@ -32,15 +34,9 @@ import { education, certificates } from '@cv';
                                 <p>{description}</p>
                                 <div>
                                     <ul>
-                                        {
-                                            courses.map((course) => {
-                                                return (
-                                                    <li>
-                                                        {course}
-                                                    </li>
-                                                );
-                                            })
-                                        }
+                                        {courses.map((course) => {
+                                            return <li>{course}</li>;
+                                        })}
                                     </ul>
                                 </div>
                             </footer>
@@ -70,7 +66,6 @@ import { education, certificates } from '@cv';
 
                                 <footer>
                                     <p>{issuer}</p>
-                        </a>
                                 </footer>
                             </article>
                         </li>
@@ -96,7 +91,6 @@ import { education, certificates } from '@cv';
     article a {
         color: var(--main-1);
     }
-
 
     article a:hover {
         text-decoration: underline;
@@ -125,9 +119,9 @@ import { education, certificates } from '@cv';
     }
 
     footer p {
-        margin-top: 8px; 
-        font-size: 0.8rem; 
-        color: var(--main-2); 
+        margin-top: 8px;
+        font-size: 0.8rem;
+        color: var(--main-2);
         margin-bottom: 0.6rem;
     }
 
@@ -141,25 +135,24 @@ import { education, certificates } from '@cv';
     }
 
     footer ul {
-        list-style: none; 
+        list-style: none;
         flex-direction: row;
-        padding: 0; 
-        display: flex; 
-        flex-wrap: wrap; 
-        gap: 10px; 
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     footer ul li {
-        background-color: var(--main-4); 
+        background-color: var(--main-4);
         color: var(--main-1);
-        padding: 5px 10px; 
-        border-radius: 5px; 
-        font-size: 0.7rem; 
-        font-weight: 500; 
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-        white-space: nowrap; 
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.7rem;
+        font-weight: 500;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        white-space: nowrap;
     }
-
 
     @media (width <= 700px) {
         time {
